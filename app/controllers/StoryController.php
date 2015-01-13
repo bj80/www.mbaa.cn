@@ -18,14 +18,14 @@ class StoryController extends BaseController {
 	public function StoryList()
 	{
 	    
-	    $storyList = DB::connection('zenkr.hz')->select('SELECT * FROM `mbaa`.`story` ORDER BY sid DESC  LIMIT 50');
+	    $storyList = DB::connection('db1')->select('SELECT * FROM `mbaa`.`story` ORDER BY sid DESC  LIMIT 50');
 	    //$storyList = $storyLis;
 		return View::make('static.story', array('head_title' => '故事 - MBAA.cn' , 'storyList' => $storyList));
 	}
 	
     public function StoryShow($sid)
 	{
-	    $story = DB::connection('zenkr.hz')->select('select * from story where sid = ?', array($sid));
+	    $story = DB::connection('db1')->select('select * from story where sid = ?', array($sid));
 	    $story = (array)$story[0];
 	    //$story = DB::select('select * from story where id = ?', array($sid));
 		return View::make('static.storyshow', array('head_title' => $story['stitle']." - MBAA.cn" ,'stitle' => $story['stitle'], 'scontent' => $story['scontent'] , 'stime' => $story['stime'] , 'author' => $story['author'] , 'sid' => $story['sid']));
