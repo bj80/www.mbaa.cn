@@ -1,0 +1,14 @@
+User-Agent: *
+Allow: /story/*
+Allow: /member
+Allow: /about
+Allow: /story
+Allow: /mbaa
+Allow: /dlc
+Allow: /dlc/publication
+Allow: /dlc/inscribe
+Allow: /sitemap
+Disallow: /vender
+Disallow: /app
+Disallow: /bootstrap
+Sitemap: http://www.mbaa.cn/sitemap/1.xml
