@@ -38,10 +38,10 @@
             <h3>联系 <small></small></h3>
         </div>
         <dl class="dl-horizontal">
-            <dt>晨光邮箱</dt>
+        	<dt>晨钟校友联谊会</dt>
+                <dd><a href="mailto:mbaa@bj80.org">mbaa@bj80.org</a></dd>
+            <dt>晨光文学社</dt>
                 <dd><a href="mailto:chenguang2004@126.com">chenguang2004@126.com</a></dd>
-            <dt>十周年投稿邮箱</dt>
-                <dd><a href="mailto:chenguangshinian@126.com">chenguangshinian@126.com</a></dd>
             <dt>站长邮箱</dt>
                 <dd><a href="mailto:zenkr@qq.com">zenkr@qq.com</a></dd>
         </dl>
